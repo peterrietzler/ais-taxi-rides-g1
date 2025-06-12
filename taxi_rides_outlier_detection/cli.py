@@ -8,7 +8,6 @@ from taxi_rides_outlier_detection import outlier_detector
 from datetime import datetime
 import json
 
-
 if os.path.exists('logging.conf'):
     logging.config.fileConfig('logging.conf')
 else:
