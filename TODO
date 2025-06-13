@@ -1,0 +1,3 @@
+pwd -W
+docker run --rm -v C:/Public/ais/dev2/mlops2/ais-taxi-rides-g2/work:/app/data taxi-rides-outlier-detection data 2025-01-
+01
